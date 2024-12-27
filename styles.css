@@ -27,6 +27,7 @@ nav{
 }
 
 .inner-nav{
+    /* border: 2px solid white; */
     display: flex;
     align-items: center;
     gap: 3rem;
@@ -37,7 +38,8 @@ nav{
 }
 
 h2{
-    color: rgb(240 215 152);
+    /* border: 2px solid red; */
+    color: #aa6f09;
     width: 7rem;
     margin-left: -3.5rem;
     margin-top: 1.5rem;
@@ -48,6 +50,7 @@ h2 >span{
 }
 
 .nav-right{
+    /* border: 2px solid white; */
     width: 1000px;
     display: flex;
     margin-left: -2.5rem;
@@ -64,16 +67,21 @@ h2 >span{
 .nav-item > a{
     text-decoration: none;
     text-transform: capitalize;
-    color: #ffd77a;
+    color: #aa6f09;
     font-weight: 450;
 }
 
 .btn-btn > button{
     padding: .7rem 1.6rem;
     border-radius: 5px;
-    background-color: #008dc1;
+    background-color: #ffae00;
+    cursor: pointer;
     border: none;
     color: #fff;
+}
+
+.btn-btn > button:hover{
+    background-color: #aa6f09;
 }
 
 .btn-btn > button >span{
@@ -100,7 +108,7 @@ h2 >span{
     font-size: 3rem;
     margin-left: 15rem;
     margin-block: 2rem;
-    color: #ffd77a;
+    color: #aa6f09;
     width: 570px;
 }
 
@@ -179,7 +187,7 @@ h2 >span{
     margin-top: -5rem;
 }
 
-h2{
+h3{
     /* border: 2px solid white; */
     color: #7a5a02;
     margin-bottom: 10rem;
@@ -328,25 +336,435 @@ h2{
 }
 
 .property-content > h1{
-    font-size: 3rem;
-    margin-left: 15rem;
+    font-size: 3.5rem;
+    margin-left: 8rem;
     margin-block: 2rem;
-    color: #ffd77a;
-    width: 700px;
-}
-
-.property-content > h1 > span{
-    margin-left: 6rem;
+    color: #aa6f09;
+    width: 800px;
+    /* border: 2px solid white; */
 }
 
 .property-content > p{
     color: white;
     width: 730px;
-    margin-left: 15rem;
+    margin-left: 12rem;
     margin-block: 2rem;
-    opacity: .5;
+    opacity: .7;
 }
 
-.property-content > p > span{
-    margin-left: 2rem;
+/* discover property code */
+.Discover-property{
+    /* border: 2px solid white; */
+    margin-block: 2rem;
+    height: 350px;
+    align-items: center;
+}
+
+.Bigbox{
+    /* border: 2px solid rebeccapurple; */
+    height: 350px;
+    width: 70rem;
+    margin: auto;
+    gap: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.property-wrapper{
+    width: 280px;
+    height: 340px;
+    background-color: white;
+    /* border: 2px solid blue; */
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.property-wrapper:hover{
+   background-color: rgb(212, 212, 212);
+  }
+
+.property-boxOne{
+    /* border: 2px solid white; */
+    height: 250px;
+    border-radius: 10px;
+    background-image: url(./image/House.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.property-boxOne >i{
+    /* border: 2px solid green; */
+    background-color: grey;
+    opacity: .8;
+    cursor: pointer;
+    color: white;
+    font-size: 25px;
+    margin-left: 13rem;
+    margin-top: 1rem;
+    border-radius: 20px;
+}
+
+.property-boxTwo{
+    /* border: 2px solid white; */
+    height: 250px;
+    border-radius: 10px;
+    background-image: url(./image/Office.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.property-boxTwo >i{
+    /* border: 2px solid green; */
+    background-color: grey;
+    opacity: .8;
+    cursor: pointer;
+    color: white;
+    font-size: 25px;
+    margin-left: 13rem;
+    margin-top: 1rem;
+    border-radius: 20px;
+}
+
+.property-boxThree{
+    /* border: 2px solid white; */
+    height: 250px;
+    border-radius: 10px;
+    background-image: url(./image/Apartment.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.property-boxThree >i{
+    /* border: 2px solid green; */
+    background-color: grey;
+    opacity: .8;
+    cursor: pointer;
+    color: white;
+    font-size: 25px;
+    margin-left: 13rem;
+    margin-top: 1rem;
+    border-radius: 20px;
+}
+
+.property-boxFour{
+    /* border: 2px solid white; */
+    height: 250px;
+    border-radius: 10px;
+    background-image: url(./image/House.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.property-boxFour >i{
+    /* border: 2px solid green; */
+    background-color: grey;
+    opacity: .8;
+    cursor: pointer;
+    color: white;
+    font-size: 25px;
+    margin-left: 13rem;
+    margin-top: 1rem;
+    border-radius: 20px;
+}
+
+.Red{
+    /* border: 2px solid red; */
+    display: flex;
+}
+
+.ballOne{
+    position: relative;
+    /* border: 2px solid red; */
+    background-color: grey;
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    margin-top: 1.5rem;
+}
+
+.ballOne >i{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+    font-size: 20px;
+}
+
+.Red >h1{
+    color: #ed9e00;
+    font-size: 28px;
+    margin-top: 1rem;
+    margin-left: 0.5rem;
+}
+
+.Red >h1 >span{
+    color: #000;
+    width: 5px;
+    /* border: 2px solid red; */
+    font-size: 12px;
+}
+
+.circle{
+    position: relative;
+    /* border: 2px solid red; */
+    background-color: grey;
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    margin-left: 6rem;
+    margin-top: 1.5rem;
+}
+
+.circle >span{
+    position: absolute;
+    top: 45%;
+    left: 48%;
+    /* height: 35px; */
+    /* width: 35px; */
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+    font-size: 20px;
+}
+
+.Black{
+    /* border: 2px solid red; */
+    display: flex;
+}
+
+.ballTwo{
+    position: relative;
+    /* border: 2px solid red; */
+    background-color: grey;
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    margin-top: 1.5rem;
+}
+
+.ballTwo >i{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+    font-size: 20px;
+}
+
+.Black >h1{
+    color: #ed9e00;
+    font-size: 28px;
+    margin-top: 1rem;
+    margin-left: 0.5rem;
+    /* border: 2px solid red; */
+}
+
+.Black >h1 >span{
+    color: #000;
+    width: 5px;
+    /* border: 2px solid red; */
+    font-size: 12px;
+}
+
+.Black >span{
+    /* border: 2px solid blue; */
+    margin-left: 5rem;
+    background-color: grey;
+    color: white;
+    font-size: 29px;
+    width: 2.1rem;
+    margin-top: 1rem;
+    background-size: cover;
+    background-position: center;
+    height: 6vh;
+    border-radius: 55px;
+}
+
+.Green{
+    /* border: 2px solid red; */
+    display: flex;
+}
+
+.ballThree{
+    position: relative;
+    /* border: 2px solid red; */
+    background-color: grey;
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    margin-top: 1.5rem;
+}
+
+.ballThree >i{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+    font-size: 20px;
+}
+
+.Green >h1{
+    color: #ed9e00;
+    font-size: 28px;
+    margin-top: 1rem;
+    margin-left: 0.5rem;
+}
+
+.Green >h1 >span{
+    color: #000;
+    width: 5px;
+    /* border: 2px solid red; */
+    font-size: 12px;
+}
+
+.circleThree{
+    position: relative;
+    /* border: 2px solid red; */
+    background-color: grey;
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    margin-left: 3rem;
+    margin-top: 1.5rem;
+}
+
+.circleThree >span{
+    position: absolute;
+    top: 45%;
+    left: 48%;
+    /* height: 35px; */
+    /* width: 35px; */
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+    font-size: 20px;
+}
+
+.Green >span{
+    border: 2px solid blue;
+    /* margin-left: 5rem; */
+    background-color: grey;
+    color: white;
+    font-size: 29px;
+    width: 2.1rem;
+    margin-top: 1rem;
+    height: 6vh;
+    border-radius: 55px;
+}
+
+.Blue{
+    /* border: 2px solid red; */
+    display: flex;
+}
+
+.ballFour{
+    position: relative;
+    /* border: 2px solid red; */
+    background-color: grey;
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    margin-top: 1.5rem;
+}
+
+.ballFour >i{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+    font-size: 20px;
+}
+
+.Blue >h1{
+    color: #ed9e00;
+    font-size: 28px;
+    margin-top: 1rem;
+    margin-left: 0.5rem;
+}
+
+.Blue >h1 >span{
+    color: #000;
+    width: 5px;
+    /* border: 2px solid red; */
+    font-size: 12px;
+}
+
+.circleFour{
+    position: relative;
+    /* border: 2px solid red; */
+    background-color: grey;
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    margin-left: 7rem;
+    margin-top: 1.5rem;
+}
+
+.circleFour >span{
+    position: absolute;
+    top: 45%;
+    left: 48%;
+    /* height: 35px; */
+    /* width: 35px; */
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+    font-size: 20px;
+}
+
+.Blue >span{
+    /* border: 2px solid blue; */
+    margin-left: 5rem;
+    background-color: grey;
+    color: white;
+    font-size: 29px;
+    width: 2.1rem;
+    margin-top: 1rem;
+    background-size: cover;
+    background-position: center;
+    height: 6vh;
+    border-radius: 55px;
+}
+
+.Resent-Projects{
+    /* border: 2px solid white; */
+    margin-block: 2rem;
+}
+
+.Resent-Projects-content{
+    /* border: 2px solid red; */
+    display: flex;
+    /* width: 40rem; */
+    height: 30vh;
+    gap: 20rem;
+    /* align-items: center; */
+}
+
+.Resent-Projects-content >h1{
+    color: #aa6f09;
+    font-size: 35px;
+    margin-block: 2rem;
+}
+
+.Resent-Projects-content >h1 >p{
+    color: white;
+    font-size: 15px;
+    margin-block: 1rem;
+    width: 25rem;
+}
+
+.Resent-Projects-content >button{
+    height: 7vh;
+    background-color: #ffae00;
+    border-radius: 6px;
+    border: none;
+    width: 10rem;
+    margin: auto;
+}
+
+.Resent-Projects-content >button:hover{
+    background-color: #aa6f09;
 }
